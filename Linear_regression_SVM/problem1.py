@@ -79,4 +79,3 @@ def ridge_regression(Phi, y, alpha=0.001):
     w = np.linalg.inv(w + alpha * I) * Phi.T * y
     #########################################
     return w
-
